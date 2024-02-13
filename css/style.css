@@ -1,0 +1,153 @@
+.root {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #A9C988;
+}
+
+.container {
+	margin: 0px auto;
+}
+
+.header {
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__text {
+	text-align: center;
+	font-size: 26px;
+	letter-spacing: 1.5px;
+}
+
+.header__text span {
+	font-family: "Porsche-Regular_0";
+}
+
+.header__icon {
+	position: absolute;
+	align-self: center;
+	right: 20px;
+}
+
+.content {
+	max-width: 1140px;
+	margin: 0px auto;
+}
+
+.header__menu {}
+
+.menu {}
+
+.menu__body {
+	border-radius: 0px 0px 30px 30px;
+	background-color: #fff;
+}
+
+.menu__list {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+	padding: 14px 0px;
+}
+
+.menu__item {}
+
+.menu__link {
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+	margin: 0px 38px 0px 0px;
+	letter-spacing: 2px;
+}
+
+.content-photo {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+}
+
+.content-photo__image {
+	position: relative;
+	z-index: 10;
+}
+
+.content-photo__text {
+	position: absolute;
+	top: 0;
+	font-size: 22px;
+	color: #000000;
+	padding: 22px;
+	text-align: center;
+	z-index: 15;
+}
+
+.text-block {
+	transform: translate(0px, -20px);
+	background-color: #fff;
+	max-width: 600px;
+	margin: 0px auto;
+	border-radius: 10% 20% 50% 20%;
+}
+
+.text-block__text {
+	font-size: 22px;
+	padding: 20px;
+}
+
+
+.gallary {}
+
+.gallary__row {}
+
+.gallary__item {
+	display: flex;
+	margin: 10px 0px 80px 0px;
+	padding: 0px 10px 0px 0px;
+}
+
+.gallary__text {
+	border-radius: 91px;
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 22px;
+}
+
+.gallary__image {
+	margin: 0px 10px;
+}
+
+.gallary__img {
+	border-radius: 94px;
+
+}
+
+.gallary__img_2 {
+	border-radius: 94px;
+	height: 600px;
+	width: 1000px;
+}
+
+
+.footer {
+	background-color: #002539;
+}
+
+.footer__text {
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0px;
+	margin: 0;
+}
+
+.container__block {
+	margin-left: 13%;
+}
+
+.container1__block {
+	padding: 0px 90px;
+}
